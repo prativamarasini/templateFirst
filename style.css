@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container-fluid {
+  background: rgb(46, 46, 46);
+  min-width: 1000px;
+}
+.contactinfo {
+  height: 60px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.contactinfo .contact {
+  color: rgb(158, 158, 158);
+  font-family: serif;
+  font-size: 14px;
+  /* text-align: center; */
+}
+.contactinfo .icons i {
+  background-color: rgb(119, 119, 119);
+  border-radius: 50%;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  padding: 7px;
+}
+.contactinfo .icons a i:hover {
+  background-color: rgb(215, 70, 51);
+  transition: all 0.2s linear;
+}
+.menu {
+  height: 220px;
+  box-sizing: border-box;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+}
+.nav {
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+.nav span {
+  position: relative;
+  margin-top: 10px;
+}
+.nav a {
+  color: black;
+  padding: 0px 15px 10px 0;
+  text-decoration: none;
+  height: 60px;
+}
+.nav span::after {
+  content: "";
+  background-color: rgb(213, 213, 218);
+  width: 0;
+  height: 4px;
+  position: absolute;
+  left: 0px;
+  bottom: -13px;
+}
+.nav span a:hover {
+  color: rgb(153, 150, 149);
+  transition: all 0.2s linear;
+}
+.nav span:hover::after {
+  background-color: rgb(0, 154, 255);
+  width: 100%;
+  transition: all 0.3s linear;
+}
+.line {
+  border: 2px solid rgb(240, 240, 240);
+  width: 1000px;
+  margin: 10px auto;
+  bottom: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+  width: 1000px;
+  align-items: center;
+}
+.logo .title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  padding-top: 25px;
+}
+.logo .subtitle {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: rgb(156, 156, 156);
+}
+.menu .search input[type="text"] {
+  width: 210px;
+  height: 30px;
+  border: none;
+  background-color: rgb(241, 241, 241);
+}
+.main-section {
+  height: 466px;
+  background-color: rgb(241, 241, 241);
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin: auto;
+  height:450px;
+}
+.carousel .left-title {
+  width: 400px;
+  /* margin-top: 120px; */
+}
+.left-title .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  text-align: left;
+  padding:10px 10px 0 0;
+
+}
+.left-title .subtitle {
+  color: rgb(105, 105, 105);
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify; 
+  padding:10px 10px 0 0;
+  
+}
+.left-title button{
+  margin:0;
+  float:left;
+}
+.carousel {
+  height: 450px;
+}
+
+.carousel .right-image{
+  width: 550px;
+  height: 450px;
+}
+.carousel .right-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.body-section {
+  height: 670px;
+}
+.body {
+  height: 509px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 1000px;
+}
+.media img {
+  padding-top: 37px;
+}
+.card {
+  /* padding: 25px 0 0 20px; */
+  height: 470px;
+  width: 490px;
+  margin: auto;
+  border: none;
+  text-align: justify;
+}
+.cardcontent {
+  height: 185px;
+  width: 225px;
+  text-align: center;
+  word-wrap: break-word;
+  /* padding: 10px; */
+}
+.cardcontent h4 {
+  color: rgb(0, 154, 255);
+}
+.cardcontent p {
+  color: rgb(68, 68, 68);
+  text-align: start;
+  word-wrap: break-word;
+}
+.info {
+  height: 120px;
+  width: 1000px;
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: auto;
+}
+.info::before {
+  content: "";
+  height: 120px;
+  width: 10px;
+  background-color: rgb(0, 155, 255);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.infotext {
+  height: 120px;
+  width: 600px;
+  padding: 25px;
+  text-align: justify;
+  justify-content: center;
+}
+.contact button {
+  background-color: rgb(0, 153, 255);
+  padding: 10px;
+  margin: 30px 30px;
+}
+.footer {
+  height: 386px;
+  background-color: rgb(26, 26, 26);
+}
+.footercontent {
+  height: 386px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.about {
+  height: 345px;
+  width: 225px;
+  color: white;
+  padding-top: 30px;
+  font-family: sans-serif;
+}
+.about .image{
+  width: 215px;
+  height: 90px;
+}
+.about .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.about p {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(68, 68, 68);
+  padding-top: 10px;
+  text-align: left;
+}
+.readmore {
+  text-align: end;
+}
+.about a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.quicklink {
+  height: 345px;
+  width: 225px;
+  color: white;
+  padding-top: 30px;
+  font-family: sans-serif;
+}
+.quicklink ul{
+  padding:0;
+}
+.quicklink ul li {
+  list-style-type: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: start;
+  color: rgb(25, 134, 222);
+}
+.quicklink i {
+  font-size: 10px;
+  color:rgb(68, 68, 68);
+  text-align: left;
+  padding:0;
+}
+
+hr{
+  color:rgb(68, 68, 68);
+  height:1px;
+  padding:5px auto;
+  margin:0;
+}
+.blogpost {
+  height: 345px;
+  width: 225px;
+  color: white;
+  padding-top: 30px;
+  font-family: sans-serif;
+  text-align: left;
+}
+.blogpost .title {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgb(68, 68, 68);
+  text-align: left;
+}
+.blogpost .subtitle {
+  font-size: 11px;
+  text-align: start;
+  font-family: sans-serif;
+  color: rgb(68, 68, 68);
+}
+.blogpost p {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(68, 68, 68);
+  text-align: start;
+}
+.blogpost a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.contactus {
+  height: 345px;
+  width: 225px;
+  color: white;
+  padding-top: 30px;
+  font-family: sans-serif;
+  text-align: left;
+}
+.contactus input {
+  background-color: rgb(35, 35, 35);
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+}
+.contactus textarea {
+  background-color: rgb(35, 35, 35);
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  text-align: start;
+}
+.contactus button{
+ float: left;
+
+}
+.foot {
+  background-color: rgb(35, 35, 35);
+}
+.foot-content {
+  height: 33px;
+  width: 1000px;
+  background-color: rgb(35, 35, 35);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.foot-content .left-content p {
+  font-size: 13px;
+  color: rgb(68, 68, 68);
+  padding: 8px;
+}
+.foot-content .right-content p {
+  font-size: 13px;
+  color: rgb(68, 68, 68);
+  padding: 8px;
+  text-align: end;
+}
+.about h6, .quicklink h6, .blogpost h6, .contactus h6{
+  text-align: start;
+}

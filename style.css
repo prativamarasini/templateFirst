@@ -327,7 +327,7 @@ hr{
   font-size: 14px;
   font-family: sans-serif;
   color: rgb(68, 68, 68);
-  text-align: start;
+  text-align:left;
 }
 .blogpost a {
   text-decoration: none;

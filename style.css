@@ -15,19 +15,24 @@
   align-items: center;
   justify-content: space-between;
   margin: auto;
+  padding-left:22px;
 }
 .contactinfo .contact {
   color: rgb(158, 158, 158);
   font-family: serif;
-  font-size: 14px;
+  font-size: 13px;
   /* text-align: center; */
+}
+.contactinfo .icons{
+  padding:0 35px 0 0;
+  margin:0 5px 0 3px;
 }
 .contactinfo .icons i {
   background-color: rgb(119, 119, 119);
   border-radius: 50%;
   color: rgb(253, 253, 253);
-  text-align: center;
-  padding: 7px;
+  /* text-align: center; */
+  padding: 8px;
 }
 .contactinfo .icons a i:hover {
   background-color: rgb(215, 70, 51);
@@ -42,15 +47,15 @@
   margin: auto;
   width: 1000px;
   display: flex;
-  align-items: center;
+  align-items:center;
 }
 .nav span {
   position: relative;
-  margin-top: 10px;
+  margin-top: 34px;
 }
 .nav a {
   color: black;
-  padding: 0px 15px 10px 0;
+  padding: 0px 20px 0 10px ;
   text-decoration: none;
   height: 60px;
 }
@@ -61,7 +66,7 @@
   height: 4px;
   position: absolute;
   left: 0px;
-  bottom: -13px;
+  bottom: -15px;
 }
 .nav span a:hover {
   color: rgb(153, 150, 149);
@@ -87,15 +92,21 @@
   align-items: center;
 }
 .logo .title {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Georgia;
   font-weight: 400;
-  padding-top: 25px;
+  font-size:35px;
+  padding:35px 0 0 20px;
+  letter-spacing: 1px;
 }
 .logo .subtitle {
-  font-family: sans-serif;
+  font-family: Georgia;
   font-size: 12px;
   color: rgb(156, 156, 156);
   text-align:left;
+  padding-left:20px;
+}
+.menu .search{
+  margin:45px 20px 0 0;
 }
 .menu .search input[type="text"] {
   width: 210px;
@@ -120,22 +131,25 @@
   /* margin-top: 120px; */
 }
 .left-title .title {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia;
   font-weight: 500;
-  text-align: left;
-  padding:10px 10px 0 0;
+  text-align:left;
+  padding:42px 0 0 20px;
+  letter-spacing: 2px;
 
 }
 .left-title .subtitle {
   color: rgb(105, 105, 105);
   font-size: 16px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia;
   text-align: justify; 
-  padding:10px 10px 0 0;
+  padding:5px 25px 0 20px;
   
 }
 .left-title button{
-  margin:0;
+  height:30px;
+  margin:0 0 15px 19px;
+  padding:0 12px 10px 10px;
   float:left;
 }
 .left-title i{
@@ -181,38 +195,41 @@
   text-align: justify;
 }
 .cardcontent {
-  height: 185px;
+  height: 120px;
   width: 225px;
   text-align: center;
   word-wrap: break-word;
   /* padding: 10px; */
 }
 .cardcontent h4 {
+  font-family: Georgia;
+  font-size:14px;
   color: rgb(0, 154, 255);
 }
 .cardcontent p {
   color: rgb(68, 68, 68);
-  text-align: start;
-  word-wrap: break-word;
+  font-family: Georgia;
+  font-size:13px;
+  padding:5px 10px 0 27px;
 }
 .info {
   height: 120px;
-  width: 1000px;
+  width: 950px;
   background-color: rgb(224, 224, 224);
-  padding: 10px;
+  bottom:23px;
+  left:5px;
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin: auto;
+  margin: 10px auto;
 }
 .info::before {
   content: "";
   height: 120px;
   width: 10px;
+  left:0;
   background-color: rgb(0, 155, 255);
   position: absolute;
-  top: 0;
-  left: 0;
 }
 .infotext {
   height: 120px;
@@ -224,7 +241,9 @@
 .contact button {
   background-color: rgb(0, 153, 255);
   padding: 10px;
-  margin: 30px 30px;
+  margin: 30px 35px 30px 26px;
+  width:280px;
+  font-size:24px;
 }
 .footer {
   height: 386px;
@@ -241,12 +260,12 @@
   height: 345px;
   width: 225px;
   color: white;
-  padding: 30px 0 0 10px;
-  font-family: sans-serif;
+  padding: 30px 0 0 22px;
+  font-family: Georgia;
 }
 .about .image{
-  width: 215px;
-  height: 90px;
+  width: 220px;
+  height: 95px;
 }
 .about .image img{
   width: 100%;
@@ -255,11 +274,15 @@
   margin-top: 10px;
 }
 .about p {
-  font-size: 14px;
-  font-family: sans-serif;
+  font-size: 12px;
+  font-family: Georgia;
   color: rgb(68, 68, 68);
-  padding-top: 10px;
+  padding-top: 32px;
   text-align: left;
+}
+.about .readmore{
+  text-align: end;
+  margin-top:-25px;
 }
 .readmore {
   text-align: end;
@@ -270,25 +293,26 @@
 .about a {
   text-decoration: none;
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: Georgia;
+  text-align: right;
 }
 .quicklink {
   height: 345px;
   width: 225px;
   color: white;
   padding-top: 30px;
-  font-family: sans-serif;
+  font-family: Georgia;
 }
 .quicklink ul{
   padding:0;
 }
 .quicklink ul li {
   list-style-type: none;
-  font-size: 14px;
-  font-family: sans-serif;
-  text-align: start;
+  font-size: 13px;
+  font-family: Georgia;
+  text-align:left;
   color: rgb(25, 134, 222);
-  padding: 4px;     
+  padding: 4px 0 4px 9px;     
 }
 .quicklink i {
   font-size: 10px;
@@ -308,38 +332,42 @@ hr{
   width: 225px;
   color: white;
   padding-top: 30px;
-  font-family: sans-serif;
+  font-family: Georgia;
   text-align: left;
 }
 .blogpost .title {
-  font-size: 15px;
-  font-family: sans-serif;
+  font-size: 12px;
+  font-family: Georgia;
   color: rgb(68, 68, 68);
   text-align: left;
 }
 .blogpost .subtitle {
   font-size: 11px;
   text-align: start;
-  font-family: sans-serif;
+  font-family: Georgia;
   color: rgb(68, 68, 68);
 }
 .blogpost p {
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: Georgia;
   color: rgb(68, 68, 68);
   text-align:left;
 }
 .blogpost a {
   text-decoration: none;
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: Georgia;
+}
+.blogpost .readmore {
+  text-align: end;
+  margin-top:-17px;
 }
 .contactus {
   height: 345px;
   width: 225px;
   color: white;
   padding: 30px 10px 0 0;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: left;
 }
 .contactus input {
@@ -359,7 +387,11 @@ hr{
 }
 .contactus button{
  float: left;
-
+ margin-top:20px;
+ padding:5px;
+ text-transform: uppercase;
+ font-family: Georgia;
+ font-size:12px;
 }
 .foot {
   background-color: rgb(35, 35, 35);
@@ -375,14 +407,16 @@ hr{
 .foot-content .left-content p {
   font-size: 13px;
   color: rgb(68, 68, 68);
-  padding: 8px;
+  padding: 10px 18px;
 }
 .foot-content .right-content p {
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(68, 68, 68);
   padding: 8px;
   text-align: end;
 }
 .about h6, .quicklink h6, .blogpost h6, .contactus h6{
   text-align: start;
+  font-size:12px;
+  font-family:Georgia;
 }
